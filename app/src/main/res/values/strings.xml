@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SEMANA 2</string>
+    <string name="oncreate">OnCreate</string>
+    <string name="onstart">OnStart</string>
+    <string name="onresume">OnResume</string>
+    <string name="onrestart">OnRestart</string>
+    <string name="onpause">OnPause</string>
+    <string name="onstop">OnStop</string>
+    <string name="ondestroy">OnDestroy</string>
+    <string name="texto_boton_siguiente">siguiente</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="datepikermode">datepikermode</string>
+    <string name="Fecha_de_Nacimiento">Fecha de Nacimiento</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripcion de Contacto</string>
+    <string name="nombre2">Nombre2</string>
+    <string name="telefono2">Telefono2</string>
+    <string name="email2">email2</string>
+    <string name="descripcion2">Descripcion2</string>
+    <string name="texto_boton_Editar_Datos">Editar Datos</string>
+</resources>

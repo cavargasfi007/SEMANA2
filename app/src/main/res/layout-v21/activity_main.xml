@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:hint="@string/nombre"
+        android:autofillHints="@string/nombre"
+        android:inputType="text" />
+
+    <DatePicker
+        android:id="@+id/dtdatepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvnombre"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="9dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+
+    <EditText
+        android:id="@+id/tvtelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@id/dtdatepicker"
+        android:hint="@string/telefono"
+        android:autofillHints="@string/telefono"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tvtelefono"
+        android:hint="@string/email"
+        android:autofillHints="@string/email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/tvdescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tvemail"
+        android:hint="@string/descripcion"
+        android:autofillHints="@string/descripcion"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnMiBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_siguiente"
+        android:onClick="siguiente"
+        android:theme="@style/MiBotonRaised"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tvdescripcion"/>
+
+
+</RelativeLayout>
